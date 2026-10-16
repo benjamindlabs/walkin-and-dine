@@ -16,10 +16,10 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-[#0a0908] text-[#f4efe6] flex flex-col font-sans selection:bg-[#c59b6d] selection:text-[#0a0908]">
-      {/* Top Banner indicating Prototype Veracity */}
+      {/* Top Hospitality Banner */}
       <div className="bg-[#141210] border-b border-[#2e2926] text-[11px] font-mono tracking-widest text-[#a8a29e] py-2 px-4 text-center z-50 flex items-center justify-center gap-3">
         <span className="w-1.5 h-1.5 rounded-full bg-[#c59b6d] animate-pulse" />
-        <span>WALKIN & DINE • CONTEMPORARY WOOD-FIRED DINING • VERIFIED FACTS ENGINE</span>
+        <span>WALKIN & DINE • CONTEMPORARY WOOD-FIRED DINING • DINNER SEATINGS WEDNESDAY THROUGH SUNDAY</span>
       </div>
 
       <Navbar onOpenReservation={() => setIsReservationOpen(true)} />

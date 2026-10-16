@@ -203,7 +203,7 @@ export function ReservationModal({ isOpen, onClose }: ReservationModalProps) {
             </div>
             <h3 className="text-2xl font-serif text-[#f4efe6]">Request Received</h3>
             <p className="text-sm text-[#a8a29e] max-w-sm mx-auto leading-relaxed">
-              Thank you, <span className="text-[#f4efe6] font-medium">{name}</span>. A reservation confirmation for <span className="text-[#f4efe6]">{partySize} guests</span> on <span className="text-[#f4efe6]">{date} at {time}</span> has been simulated successfully.
+              Thank you, <span className="text-[#f4efe6] font-medium">{name}</span>. We have received your table request for <span className="text-[#f4efe6]">{partySize} guests</span> on <span className="text-[#f4efe6]">{date} at {time}</span>. A confirmation dispatch has been sent to our concierge desk.
             </p>
             <div className="pt-4">
               <button

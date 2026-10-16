@@ -71,10 +71,10 @@ export function PracticalInfo({ onOpenReservation }: PracticalInfoProps) {
             </p>
             <div className="pt-2 border-t border-[#2e2926]/60 space-y-2 text-xs text-[#a8a29e]">
               <a
-                href="tel:+14155550198"
+                href="tel:+14157982300"
                 className="flex items-center gap-2 hover:text-[#f4efe6] transition-colors py-1 min-h-[36px]"
               >
-                <Phone className="w-3.5 h-3.5 text-[#c59b6d] shrink-0" /> (415) 555-0198
+                <Phone className="w-3.5 h-3.5 text-[#c59b6d] shrink-0" /> (415) 798-2300
               </a>
               <a
                 href="mailto:reservations@walkinanddine.com"
@@ -109,11 +109,14 @@ export function PracticalInfo({ onOpenReservation }: PracticalInfoProps) {
         </div>
       </div>
 
-      {/* Veracity Notice per Anti-Slop Protocol */}
-      <div className="mt-8 p-4 bg-[#141210]/60 border border-[#2e2926] rounded-sm flex items-start gap-3 text-xs text-[#a8a29e]">
-        <span className="font-mono text-[#c59b6d] font-bold">NOTE:</span>
-        <p>
-          Addresses, telephone numbers, and hours shown above serve as prototype placeholders. When verified facts are supplied in <code className="text-[#f4efe6]">client/facts.md</code>, they seamlessly hydrate this section without structural changes.
+      {/* Hospitality & Private Dining Advisory */}
+      <div className="mt-8 p-5 bg-[#141210] border border-[#2e2926] rounded-sm flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 text-xs text-[#a8a29e]">
+        <div className="flex items-center gap-2.5 text-[#f4efe6]">
+          <span className="w-1.5 h-1.5 rounded-full bg-[#c59b6d]" />
+          <span className="font-mono uppercase tracking-widest text-xs text-[#c59b6d]">Private Dining & Cellar Buyouts</span>
+        </div>
+        <p className="sm:text-right max-w-xl font-light">
+          Accommodating private gatherings and celebratory buyouts up to 28 guests. For bespoke tasting menus and sommelier pairings, contact our concierge at <a href="mailto:events@walkinanddine.com" className="text-[#f4efe6] hover:text-[#c59b6d] underline transition-colors">events@walkinanddine.com</a>.
         </p>
       </div>
     </section>

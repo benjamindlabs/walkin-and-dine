@@ -21,7 +21,7 @@ export default function SequencePage() {
           <span>Back to Homepage</span>
         </Link>
         <div className="text-xs font-mono tracking-widest text-[#c59b6d] uppercase">
-          WALKIN & DINE SEQUENCE • 32 FRAMES
+          WALKIN & DINE • THE HEARTH CHOREOGRAPHY
         </div>
       </header>
 

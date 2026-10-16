@@ -128,7 +128,7 @@ export function Offerings({ onOpenReservation }: OfferingsProps) {
         </h2>
 
         <p className="mt-3 sm:mt-4 text-[#a8a29e] text-sm sm:text-base md:text-lg font-light leading-relaxed">
-          Dishes evolve nightly. Below is a representative tasting preview illustrating our balance of wood smoke, raw purity, and seasonal larder.
+          Dishes evolve nightly with the tide and hearth. Below is an expression of our current seasonal tasting menu, balancing wood smoke, raw purity, and heirloom harvests.
         </p>
       </div>
 
@@ -195,7 +195,7 @@ export function Offerings({ onOpenReservation }: OfferingsProps) {
             </div>
           </div>
           <p className="mt-3 text-xs text-[#a8a29e] font-mono">
-            * Representative preview. Exact nightly menu is tailored to local daily landings.
+            * Seasonal harvest selection. Nightly courses are tailored to daily coastal landings and orchard produce.
           </p>
         </div>
 

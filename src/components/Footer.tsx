@@ -101,15 +101,17 @@ export function Footer() {
           </div>
         </div>
 
-        {/* Bottom Credits & Engine Tag */}
+        {/* Bottom Credits & Navigation */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#a8a29e] font-mono">
           <div>
             © 2026 Walkin & Dine. All rights reserved.
           </div>
-          <div className="flex items-center gap-4">
-            <span>Powered by Premium Website Engine</span>
+          <div className="flex items-center gap-4 text-[11px]">
+            <a href="#visit" className="hover:text-[#f4efe6] transition-colors">428 Hearthstone Way, San Francisco</a>
             <span className="text-[#2e2926]">•</span>
-            <span className="text-[#c59b6d]">Anti-Slop Filter Active</span>
+            <a href="#offerings" className="hover:text-[#f4efe6] transition-colors">Tasting Menus</a>
+            <span className="text-[#2e2926]">•</span>
+            <span className="text-[#c59b6d]">Wood-Fired Hearth & Cellar</span>
           </div>
         </div>
       </div>

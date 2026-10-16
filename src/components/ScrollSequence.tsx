@@ -568,15 +568,9 @@ export function ScrollSequence({
         {loadProgress < 100 && (
           <div className="absolute bottom-5 left-5 sm:bottom-6 sm:left-6 z-30 flex items-center gap-2.5 px-3 py-1.5 rounded-full bg-[#141210]/85 backdrop-blur-sm border border-[#2e2926]/70 text-[10px] sm:text-[11px] font-mono text-[#a8a29e]">
             <span className="w-1.5 h-1.5 rounded-full bg-[#c59b6d] animate-pulse" />
-            <span>SEQUENCE {loadProgress}%</span>
+            <span>PREPARING HEARTH {loadProgress}%</span>
           </div>
         )}
-
-        {/* Frame index telemetry indicator for precision testing */}
-        <div className="absolute top-5 right-5 sm:top-6 sm:right-6 z-30 flex items-center gap-2 px-3 py-1.5 rounded-full bg-[#141210]/75 backdrop-blur-sm border border-[#2e2926]/60 text-[9px] sm:text-[10px] font-mono tracking-widest text-[#a8a29e]">
-          <span className="text-[#c59b6d]">FRAME</span>
-          <span ref={frameDisplayRef}>01 / {String(totalFrames).padStart(2, "0")}</span>
-        </div>
 
         {/* Narrative Milestones Overlay Choreography */}
         <div className="absolute inset-0 pointer-events-none z-20">
